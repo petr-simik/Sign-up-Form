@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="leftContainer">
+        <div class="shadow">
+            <img src="images/logo.png" class="logo">
+            Petr Šimík
+        </div>
+        <p class="instagramLink">Photo by <a href="https://www.instagram.com/petrsimikphoto/" class="instagramLink2">Petr Šimík</a></p>
+    </div>
+
+    <main>
+        <section class="rightUpperContainer">
+            This is not a real online service! <br>
+            You know you need something like this in your life to help you relize your deepest dreams. <br>
+            Sign up now to get started. <br><br>
+            You know you want to.
+        </section>
+
+        <section class="rightMidContainer">
+            <p class="letsDoThis">Let's do this!</p>
+            <form action="#" method="post" id="registerForm">
+                <div class="formLeft">
+                    <label for="firstName">First Name</label><br>
+                    <input required type="text" id="firstName" placeholder=" "><br>
+                    <label for="formEmail">Email</label><br>
+                    <input required type="email" id="formEmail" placeholder=" "><br>
+                    <label for="formPass">Password</label><br>
+                    <input required type="password" id="formPass" placeholder=" "><br>
+                </div>
+                <div class="formRight">
+                    <label for="lastName">Last Name</label><br>
+                    <input required type="text" id="lastName" name="lastName" placeholder=" "><br>
+                    <label for="phoneNumber">Phone Number</label><br>
+                    <input required 
+                            type="tel" 
+                            id="phoneNumber" 
+                            autocomplete="tel" 
+                            pattern="^(\((\d{3})\)|(\d{3}))-?(\d{3})-?(\d{4})$" 
+                            placeholder=" "
+                            oninvalid="this.setCustomValidity('Please use (123)-123-1234 or 123-123-1234')"
+                            oninput="this.setCustomValidity('')"><br>
+                    <label for="formConfPass">Confirm Password</label><br>
+                    <input required type="password" id="formConfPass" name="formConfPass" placeholder=" "><br>
+                </div>                
+            </form>
+        </section>
+
+        <section class="rightBottomContainer">
+            <input type="submit" class="createAcc" value="Create Account" form="registerForm"></input>
+            <p class="logIn">Already have an account? <a href="#" class="logInLink">Log in</a></p>
+        </section>
+    </main>
+
+</body>
+</html>
