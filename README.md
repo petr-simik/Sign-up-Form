@@ -2,7 +2,7 @@
 
 ## [Live Demo](https://qsoftin.github.io/Sign-up-Form/)
 
-My own mini project - To Do App
+Mini project from The Odin Project
 
 ### Technologies Used 
 
