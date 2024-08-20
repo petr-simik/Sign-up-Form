@@ -1,6 +1,6 @@
 # Sign-up Form
 
-## [Live Demo](https://qsoftin.github.io/Sign-up-Form/)
+## [Live Demo](https://petr-simik.github.io/Sign-up-Form/)
 
 Mini project from The Odin Project
 
